@@ -1,0 +1,35 @@
+//I propose to create the route for all species
+
+// const allSpecies=async()=>{
+//     let arrayEspecies=[]
+//     let arrayEspecies2=[]
+//     for(let i=1; i<=42;i++){
+//         const resultados = await fetch(`https://rickandmortyapi.com/api/character?page=${i}`)
+//         const resultadosJson=await resultados.json()
+//         resultadosJson.results.map(element=>{
+//             arrayEspecies.push(element['species'])
+//         })
+//     }
+// //     console.log(arrayEspecies)
+//     for(let j=0;j<arrayEspecies.length;j++){
+//         arrayEspecies2.push(arrayEspecies[0])
+//         let arrayEspeciesNuevo=arrayEspecies.filter(element=>element!=arrayEspecies[0])
+// //         console.log(arrayEspecies.filter(element=>element!=arrayEspecies[0]))
+//         arrayEspecies=[]
+//         arrayEspecies=arrayEspeciesNuevo
+//         j=0
+// //         console.log(arrayEspecies[j],'reiniciado')
+//     }
+// //     console.log(arrayEspecies2)
+
+// }
+
+
+// allSpecies()
+
+
+/*
+(10) ['Human', 'Alien', 'Humanoid', 'Poopybutthole', 'Poopybutthole', 'Mythological Creature', 'Robot', 'Cronenberg', 'Cronenberg', 'Disease']
+*/
+
+
